@@ -15,18 +15,18 @@ Please create a folder ```git``` in hard drive.
 Like ```E:/git```, bellow content based on this example.  
 **1. install git tool**  
 Install it into ```E:/git/Git```  
-<img width="400" height="320" src="/pics/git_1.jpg">
-<img width="400" height="320" src="/pics/git_2.jpg">
-<img width="400" height="320" src="/pics/git_3.jpg">  
+<img width="420" height="360" src="./pics/git_1.JPG">  
+<img width="420" height="360" src="./pics/git_2.JPG">   
+<img width="420" height="360" src="./pics/git_3.JPG">   
 Then leave the defaults setting and intall it.
   
 **2. Install gerrit**  
 Move **gerrit-2.14.4.war** into ```E:/git/Gerrit/```  
 Press ```left-shift + Right Click``` to open the command line in current folder.  
-Run bellow command: ```java -jar gerrit-2.14.4.war init -d .```
-<img width="400" height="450" src="/pics/gerrit_1.jpg">
-<img width="400" height="450" src="/pics/gerrit_2.jpg">
-<img width="400" height="180" src="/pics/gerrit_3.jpg">  
+Run bellow command: ```java -jar gerrit-2.14.4.war init -d .```   
+<img width="400" height="450" src="./pics/gerrit_1.JPG">   
+<img width="400" height="450" src="./pics/gerrit_2.jpg">   
+<img width="400" height="180" src="./pics/gerrit_3.JPG">   
 Then many folders will extract and it will generate ```etc/gerrit.config```.   
 Content as follows:  
 <pre>
@@ -80,7 +80,7 @@ ScriptAlias /cgi-bin/ "E:/git/Apache/cgi-bin/"
 </pre>  
 Execute bellow command: ```httpd.exe -k isntall```.  
 It will show bellow message when installed successfully.  
-<img width="400" height="60" src="/pics/httpd_1.jpg">  
+<img width="400" height="60" src="./pics/httpd_1.JPG">  
 Then add gerrit reference things in ```conf/httpd.conf```:  
 
 	<VirtualHost *:80>  
@@ -120,5 +120,5 @@ Or you can execute ```bin/ApacheMonitor.exe``` to start the service.
 You can input ```Your IP Address``` into your browser.  
 If OK, you will see bellow picture:  
 
-<img width="600" height="600" src="/pics/setup_ok.jpg"> 
+<img width="600" height="600" src="./pics/setup_OK.JPG"> 
   
